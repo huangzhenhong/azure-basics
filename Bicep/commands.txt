@@ -1,0 +1,20 @@
+
+************************************* Azure CLI ***********************************
+az deployment tenant ...
+az deployment mg ...
+az deployment sub ...
+az deployment group ... 
+
+az deployment group create --template-file .\storage.bicep --resource-group rg-storage
+az deployment group create --template-file .\storage.bicep --resource-group rg-storage --parameters @myparameters.json
+az deployment group create --template-file .\storage.bicep --resource-group rg-storage --parameters storageAccountName='stgpls001' location='Us East'
+
+************************************* Powershell ***********************************
+New-AzTenantDeployment ...
+
+New-AzResourceGroupDeployment -ResourceGroupName rg-storage -TemplateFile .\storage.bicep 
+New-AzResourceGroupDeployment -ResourceGroupName rg-storage -TemplateFile .\storage.bicep -TemplateParameterFile .\storage.parameters.json
+New-AzResourceGroupDeployment -ResourceGroupName rg-storage -TemplateFile .\storage.bicep -storageAccountName 'stgpls001' -location 'Us East'
+
+
+

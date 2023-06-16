@@ -1,0 +1,26 @@
+ARM Templates Overview
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview?
+
+Quickstart: Create and deploy ARM templates by using the Azure Portal
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal
+
+Data types in ARM templates:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/data-types?tabs=json
+
+Azure Quickstart Template Library
+https://github.com/Azure/azure-quickstart-templates
+
+Azure Quickstart Template - VHD Image in Blob URI Example
+https://github.com/Azure/azure-quickstart-templates/blob/master/101-vm-from-user-image/azuredeploy.json
+
+Download templates:
+https://docs.microsoft.com/en-us/previous-versions/azure/virtual-machines/windows/download-template
+
+Set resource location in ARM templates
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/resource-location?tabs=azure-powershell
+
+Prepare a Windows VHD or VHDX to upload to Azure:
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image
+
+Shared Image Galleries overview:
+https://docs.microsoft.com/en-us/azure/virtual-machines/shared-image-galleries

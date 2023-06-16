@@ -1,0 +1,9 @@
+Module 2: Define Custom RBAC Roles in Microsoft Azure
+
+* Clip 01: Overview
+* Clip 02: Azure RBAC Role Structure
+* Clip 03: Custom Role Creation Process
+* Clip 04: Demo - Create Azure Custom Resource Roles
+* Clip 05: Custom Azure AD Roles
+* Clip 06: Demo - Create Custom Azure AD Role
+* Clip 07: Summary

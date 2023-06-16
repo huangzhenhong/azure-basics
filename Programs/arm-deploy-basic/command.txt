@@ -1,0 +1,18 @@
+# Deploy a ARM template
+
+# Connect to Azure by using the az login command.
+az login
+
+# Create a resource group to contain the new resource. Replace <myLocation> with a region near you.
+az group create --name az204-arm-rg --location <myLocation>
+
+# Use the az deployment group create command to deploy your template. The deployment will take a few minutes to complete, progress will be shown in the terminal.
+az  deployment group create --resource-group az204-arm-rg --template-file azuredeploy.json --parameters azuredeploy.parameters.json
+
+# You can verify the deployment by running the command below. Replace <myStorageAccount> with the name you used earlier.
+az storage account show --resource-group az204-arm-rg --name <myStorageAccount>
+
+# clean up resources
+az group delete --name az204-arm-rg --no-wait
+
+
